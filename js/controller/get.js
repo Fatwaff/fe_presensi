@@ -7,7 +7,7 @@ export function isiTablePresensi(results) {
 function isiRow(value) {
   let content = isiTabel
     .replace("#NAMA#", value.biodata.nama)
-    .replace("#NOHP#", value.biodata.phone_number)
+    .replace("#NOHP#", value.phone_number)
     .replace("#JABATAN#", value.biodata.jabatan)
     .replace("#LOKASI#", value.location)
     .replace("#STATUS#", value.checkin)
